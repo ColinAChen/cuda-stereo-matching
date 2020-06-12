@@ -8,9 +8,9 @@
 #SBATCH --time=00:30:00
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=coachen@ucsc.edu
-#SBATCH --partition=gpuq
-#SBATCH --account=gpuq
-#SBATCH --qos=gpuq
+#SBATCH --partition=am-148-s20
+#SBATCH --account=am-148-s20
+#SBATCH --qos=am-148-s20
 module load cuda10.1
 
 srun match

@@ -11,5 +11,5 @@ bmp.o: bmp.c bmp.h
 	$(C) $(CFLAGS) -c bmp.c
 
 clean:
-	rm -f match match.bmp *.o disparity.bmp 
+	rm -f match match.bmp *.o disparity.bmp out 
 
